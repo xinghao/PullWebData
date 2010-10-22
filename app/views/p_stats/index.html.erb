@@ -1,0 +1,30 @@
+<h1>Listing p_stats</h1>
+
+<table>
+  <tr>
+    <th>Altnet</th>
+    <th>Mz</th>
+    <th>Lastfm</th>
+    <th>Echonest</th>
+    <th>Yahoomusic</th>
+    <th>Mtv</th>
+  </tr>
+
+<% @p_stats.each do |p_stat| %>
+  <tr>
+    <td><%=h p_stat.altnet_id %></td>
+    <td><%=h p_stat.mz %></td>
+    <td><%=h p_stat.lastfm %></td>
+    <td><%=h p_stat.echonest %></td>
+    <td><%=h p_stat.yahoomusic %></td>
+    <td><%=h p_stat.mtv %></td>
+    <td><%= link_to 'Show', p_stat %></td>
+    <td><%= link_to 'Edit', edit_p_stat_path(p_stat) %></td>
+    <td><%= link_to 'Destroy', p_stat, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New p_stat', new_p_stat_path %>

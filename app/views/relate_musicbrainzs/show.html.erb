@@ -1,0 +1,23 @@
+<p>
+  <b>Altent:</b>
+  <%=h @relate_musicbrainz.altent_id %>
+</p>
+
+<p>
+  <b>Similar:</b>
+  <%=h @relate_musicbrainz.similar_id %>
+</p>
+
+<p>
+  <b>Postion:</b>
+  <%=h @relate_musicbrainz.postion %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%=h @relate_musicbrainz.score %>
+</p>
+
+
+<%= link_to 'Edit', edit_relate_musicbrainz_path(@relate_musicbrainz) %> |
+<%= link_to 'Back', relate_musicbrainzs_path %>

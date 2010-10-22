@@ -1,0 +1,26 @@
+<h1>Listing relate_musicbrainzs</h1>
+
+<table>
+  <tr>
+    <th>Altent</th>
+    <th>Similar</th>
+    <th>Postion</th>
+    <th>Score</th>
+  </tr>
+
+<% @relate_musicbrainzs.each do |relate_musicbrainz| %>
+  <tr>
+    <td><%=h relate_musicbrainz.altent_id %></td>
+    <td><%=h relate_musicbrainz.similar_id %></td>
+    <td><%=h relate_musicbrainz.postion %></td>
+    <td><%=h relate_musicbrainz.score %></td>
+    <td><%= link_to 'Show', relate_musicbrainz %></td>
+    <td><%= link_to 'Edit', edit_relate_musicbrainz_path(relate_musicbrainz) %></td>
+    <td><%= link_to 'Destroy', relate_musicbrainz, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New relate_musicbrainz', new_relate_musicbrainz_path %>

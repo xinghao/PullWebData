@@ -1,0 +1,1357 @@
+# Logfile created on Mon Oct 18 12:30:14 +1000 2010  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (21.1ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceLastfm Load (27.7ms)[0m   [0;1mSELECT * FROM `websource_lastfms` WHERE (`websource_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceLastfm Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `websource_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.5ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.4ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.4ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (271.7ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.5ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePStats (20100922010458)
+Migrating to CreateRelateMusicbrainzs (20100922023028)
+Migrating to CreateWebsources (20100922071727)
+Migrating to CreateWebsourceLastfms (20100923021033)
+Migrating to CreateWebsourceYahoomusics (20100923021056)
+Migrating to CreateWebsourceMtvs (20100923021108)
+Migrating to CreateWebsourceEchonests (20100923071830)
+Migrating to CreateRelateMtvs (20100924035323)
+Migrating to CreateRelateLastfms (20100924052749)
+Migrating to CreateRelateYahoomusics (20100924052803)
+Migrating to CreateRelateEchonests (20100924052823)
+Migrating to CreateAStats (20100927031750)
+Migrating to CreateSimilarArtists (20100930045107)
+Migrating to CreatePopularPStats (20101006061104)
+Migrating to CreateWebsourceArtistPopularLastfms (20101006062147)
+Migrating to CreateWebsourceArtistPopularEchonests (20101007023819)
+Migrating to CreatePopularArtists (20101018030749)
+  [4;35;1mSQL (379.8ms)[0m   [0mCREATE TABLE `popular_artists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `artist_id` int(11), `playstats` decimal(40,0), `mz` decimal(40,0), `lastfm` decimal(40,0), `echonest` decimal(40,0), `yahoomusic` decimal(40,0), `mtv` decimal(40,0), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101018030749')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `a_stats`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `a_stats`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `a_stats`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mSQL (18.5ms)[0m   [0;1mdescribe `artists`[0m
+  [4;35;1mSQL (810.0ms)[0m   [0mSHOW KEYS FROM `artists`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW FIELDS FROM `p_stats`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `p_stats`[0m
+  [4;36;1mSQL (79.5ms)[0m   [0;1mSHOW KEYS FROM `p_stats`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSHOW FIELDS FROM `popular_artists`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `popular_artists`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `popular_artists`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `popular_p_stats`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW KEYS FROM `popular_p_stats`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `relate_echonests`[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mdescribe `relate_echonests`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW KEYS FROM `relate_echonests`[0m
+  [4;36;1mSQL (11.8ms)[0m   [0;1mSHOW FIELDS FROM `relate_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `relate_lastfms`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `relate_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `relate_mtvs`[0m
+  [4;36;1mSQL (7.1ms)[0m   [0;1mdescribe `relate_mtvs`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `relate_mtvs`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `relate_musicbrainzs`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `relate_musicbrainzs`[0m
+  [4;36;1mSQL (38.9ms)[0m   [0;1mSHOW KEYS FROM `relate_musicbrainzs`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW FIELDS FROM `relate_yahoomusics`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mdescribe `relate_yahoomusics`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `relate_yahoomusics`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `similar_artists`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `similar_artists`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `similar_artists`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mdescribe `websource_artist_popular_echonests`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `websource_artist_popular_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_echonests`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mdescribe `websource_echonests`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `websource_echonests`[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW FIELDS FROM `websource_lastfms`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `websource_lastfms`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `websource_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_mtvs`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `websource_mtvs`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `websource_mtvs`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `websource_yahoomusics`[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mdescribe `websource_yahoomusics`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `websource_yahoomusics`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSHOW FIELDS FROM `websources`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `websources`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `websources`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePStats (20100922010458)
+Migrating to CreateRelateMusicbrainzs (20100922023028)
+Migrating to CreateWebsources (20100922071727)
+Migrating to CreateWebsourceLastfms (20100923021033)
+Migrating to CreateWebsourceYahoomusics (20100923021056)
+Migrating to CreateWebsourceMtvs (20100923021108)
+Migrating to CreateWebsourceEchonests (20100923071830)
+Migrating to CreateRelateMtvs (20100924035323)
+Migrating to CreateRelateLastfms (20100924052749)
+Migrating to CreateRelateYahoomusics (20100924052803)
+Migrating to CreateRelateEchonests (20100924052823)
+Migrating to CreateAStats (20100927031750)
+Migrating to CreateSimilarArtists (20100930045107)
+Migrating to CreatePopularPStats (20101006061104)
+Migrating to CreateWebsourceArtistPopularLastfms (20101006062147)
+Migrating to CreateWebsourceArtistPopularEchonests (20101007023819)
+Migrating to CreatePopularArtists (20101018032613)
+  [4;35;1mSQL (108.8ms)[0m   [0mCREATE TABLE `popular_artists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `artist_id` int(11), `playstats` decimal(65,30), `mz` decimal(65,30), `lastfm` decimal(65,30), `echonest` decimal(65,30), `yahoomusic` decimal(65,30), `mtv` decimal(65,30), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101018032613')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `a_stats`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `a_stats`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `a_stats`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `artists`[0m
+  [4;35;1mSQL (1162.8ms)[0m   [0mSHOW KEYS FROM `artists`[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW FIELDS FROM `p_stats`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `p_stats`[0m
+  [4;36;1mSQL (52.4ms)[0m   [0;1mSHOW KEYS FROM `p_stats`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW FIELDS FROM `popular_artists`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `popular_artists`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `popular_artists`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `popular_p_stats`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `popular_p_stats`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `relate_echonests`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `relate_echonests`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `relate_echonests`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `relate_lastfms`[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mdescribe `relate_lastfms`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `relate_lastfms`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW FIELDS FROM `relate_mtvs`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mdescribe `relate_mtvs`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `relate_mtvs`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `relate_musicbrainzs`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `relate_musicbrainzs`[0m
+  [4;36;1mSQL (36.8ms)[0m   [0;1mSHOW KEYS FROM `relate_musicbrainzs`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW FIELDS FROM `relate_yahoomusics`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `relate_yahoomusics`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `relate_yahoomusics`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `similar_artists`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `similar_artists`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `similar_artists`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mdescribe `websource_artist_popular_echonests`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mSQL (11.3ms)[0m   [0;1mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `websource_artist_popular_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_echonests`[0m
+  [4;36;1mSQL (6.8ms)[0m   [0;1mdescribe `websource_echonests`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `websource_echonests`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `websource_lastfms`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `websource_lastfms`[0m
+  [4;36;1mSQL (7.2ms)[0m   [0;1mSHOW KEYS FROM `websource_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_mtvs`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `websource_mtvs`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `websource_mtvs`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW FIELDS FROM `websource_yahoomusics`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `websource_yahoomusics`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `websource_yahoomusics`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `websources`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `websources`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `websources`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (272.6ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mPopularArtist Columns (5.6ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mPopularArtist Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularArtist Create (0.3ms)[0m   [0;1mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:45:49', NULL, NULL, '2010-10-18 03:45:49', NULL, 0.0, NULL, 1)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mPopularArtist Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularArtist Create (0.2ms)[0m   [0;1mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:47:41', NULL, NULL, '2010-10-18 03:47:41', NULL, 1282244.0, NULL, 1)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPopularPStat Load (0.4ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (lastfm = 5) LIMIT 0, 10[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES UTF8[0m
+  [4;35;1mPopularPStat Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;36;1mArtist Load (27.9ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 2402) LIMIT 1[0m
+  [4;35;1mArtist Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (7.8ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 2402) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mPopularArtist Columns (6.5ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularArtist Create (0.3ms)[0m   [0;1mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:48:39', NULL, NULL, '2010-10-18 03:48:39', NULL, 2216732.0, NULL, 2402)[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.5ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Create (0.3ms)[0m   [0mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:48:39', NULL, NULL, '2010-10-18 03:48:39', NULL, 1282244.0, NULL, 1)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 2) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularArtist Create (0.2ms)[0m   [0;1mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:48:39', NULL, NULL, '2010-10-18 03:48:39', NULL, 749371.0, NULL, 2)[0m
+  [4;35;1mSQL (20.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 3) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 3) LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Create (0.3ms)[0m   [0mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:48:39', NULL, NULL, '2010-10-18 03:48:39', NULL, 515573.0, NULL, 3)[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 4) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 4) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularArtist Create (0.2ms)[0m   [0;1mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:48:39', NULL, NULL, '2010-10-18 03:48:39', NULL, 171609.0, NULL, 4)[0m
+  [4;35;1mSQL (7.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.5ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 5) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 5) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Create (0.3ms)[0m   [0mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:48:40', NULL, NULL, '2010-10-18 03:48:40', NULL, 112368.0, NULL, 5)[0m
+  [4;36;1mSQL (7.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 6) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 6) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularArtist Create (0.2ms)[0m   [0;1mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:48:40', NULL, NULL, '2010-10-18 03:48:40', NULL, 739634.0, NULL, 6)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 7) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 7) LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Create (0.2ms)[0m   [0mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:48:40', NULL, NULL, '2010-10-18 03:48:40', NULL, 832636.0, NULL, 7)[0m
+  [4;36;1mSQL (5.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 8) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 8) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularArtist Create (0.2ms)[0m   [0;1mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:48:40', NULL, NULL, '2010-10-18 03:48:40', NULL, 320034.0, NULL, 8)[0m
+  [4;35;1mSQL (7.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 9) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 9) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Create (0.2ms)[0m   [0mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:48:40', NULL, NULL, '2010-10-18 03:48:40', NULL, 718004.0, NULL, 9)[0m
+  [4;36;1mSQL (7.3ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPopularPStat Load (0.5ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (lastfm = 5) LIMIT 0, 10[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES UTF8[0m
+  [4;35;1mPopularPStat Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 2402) LIMIT 1[0m
+  [4;35;1mArtist Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.4ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 2402) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (8.5ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mPopularArtist Columns (6.8ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mPopularArtist Load (0.4ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2402) LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 2) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 2) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 3) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 3) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 4) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 4) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 4) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 5) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 5) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 5) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 6) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 6) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 6) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 7) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 7) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 7) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 8) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 8) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 8) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 9) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 9) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 9) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPopularPStat Load (0.4ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (lastfm = 5) LIMIT 0, 10[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES UTF8[0m
+  [4;35;1mPopularPStat Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;36;1mArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 2402) LIMIT 1[0m
+  [4;35;1mArtist Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 2402) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mPopularArtist Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2402) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:51:29', `lastfm` = 2216732.0 WHERE `id` = 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 1) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 2) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 2) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 3) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 3) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 3) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.5ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 4) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 4) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 4) LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 5) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 5) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 5) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 6) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 6) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 6) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 7) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 7) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 7) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 8) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 8) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 8) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 9) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 9) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 9) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPopularPStat Load (0.4ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (lastfm = 5) LIMIT 0, 10[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES UTF8[0m
+  [4;35;1mPopularPStat Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;36;1mArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 2402) LIMIT 1[0m
+  [4;35;1mArtist Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.4ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 2402) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mPopularArtist Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2402) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 1) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 2) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 2) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 3) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 3) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 4) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.4ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 4) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.4ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 4) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 5) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 5) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 5) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 6) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 6) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 6) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 7) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 7) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 7) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 8) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 8) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 8) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 9) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularLastfm Load (0.2ms)[0m   [0mSELECT * FROM `websource_artist_popular_lastfms` WHERE (`websource_artist_popular_lastfms`.altnet_id = 9) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 9) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularArtist Create (0.2ms)[0m   [0;1mINSERT INTO `popular_artists` (`echonest`, `created_at`, `playstats`, `mz`, `updated_at`, `mtv`, `lastfm`, `yahoomusic`, `artist_id`) VALUES(NULL, '2010-10-18 03:51:44', NULL, NULL, '2010-10-18 03:51:44', NULL, 718004.0, NULL, 9)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPopularPStat Load (0.4ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (echonest = 5) LIMIT 0, 10[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES UTF8[0m
+  [4;35;1mPopularPStat Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;36;1mArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 2402) LIMIT 1[0m
+  [4;35;1mArtist Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.4ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 2402) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularEchonest Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mPopularArtist Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2402) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:54:39', `echonest` = 0.0 WHERE `id` = 1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 1) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.2ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:54:39', `echonest` = 0.0 WHERE `id` = 2[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 2) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 2) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:54:39', `echonest` = 0.0 WHERE `id` = 3[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 3) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 3) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 3) LIMIT 1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.4ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:54:39', `echonest` = 0.0 WHERE `id` = 4[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 4) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 4) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 4) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:54:39', `echonest` = 0.0 WHERE `id` = 5[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 5) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 5) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 5) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:54:39', `echonest` = 0.0 WHERE `id` = 6[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 6) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 6) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 6) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.2ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:54:39', `echonest` = 0.0 WHERE `id` = 7[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 7) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 7) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 7) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:54:39', `echonest` = 0.0 WHERE `id` = 8[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 8) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 8) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 8) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:54:39', `echonest` = 0.0 WHERE `id` = 9[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.5ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 9) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 9) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 9) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:54:39', `echonest` = 0.0 WHERE `id` = 11[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPopularPStat Load (0.4ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (echonest = 5) LIMIT 0, 10[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES UTF8[0m
+  [4;35;1mPopularPStat Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;36;1mArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 2402) LIMIT 1[0m
+  [4;35;1mArtist Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (3.7ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 2402) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularEchonest Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mPopularArtist Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2402) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.4ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:55:43', `echonest` = 0.660986668206 WHERE `id` = 1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 1) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 1) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:55:43', `echonest` = 0.595781012575 WHERE `id` = 2[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 2) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 2) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2) LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:55:43', `echonest` = 0.5565917098 WHERE `id` = 3[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.4ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 3) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.7ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 3) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.7ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 3) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.3ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:55:43', `echonest` = 0.53215937989 WHERE `id` = 4[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 4) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 4) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 4) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.2ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:55:43', `echonest` = 0.493779949636 WHERE `id` = 5[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 5) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 5) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 5) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.2ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:55:43', `echonest` = 0.474649168793 WHERE `id` = 6[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 6) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 6) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 6) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.2ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:55:43', `echonest` = 0.753831717642 WHERE `id` = 7[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 7) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.2ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 7) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 7) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.2ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:55:43', `echonest` = 0.592619559807 WHERE `id` = 8[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 8) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 8) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 8) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.4ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:55:43', `echonest` = 0.652267735291 WHERE `id` = 9[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.7ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 9) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 9) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 9) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularArtist Update (0.4ms)[0m   [0mUPDATE `popular_artists` SET `updated_at` = '2010-10-18 03:55:43', `echonest` = 0.526817833814 WHERE `id` = 11[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPopularPStat Load (0.4ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (echonest = 5) LIMIT 0, 10[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES UTF8[0m
+  [4;35;1mPopularPStat Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 2402) LIMIT 1[0m
+  [4;35;1mArtist Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.4ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 2402) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularEchonest Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mPopularArtist Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mPopularArtist Load (0.3ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2402) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPStat Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_p_stats` WHERE (`popular_p_stats`.`altnet_id` = 2402) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPStat Update (0.3ms)[0m   [0;1mUPDATE `popular_p_stats` SET `updated_at` = '2010-10-18 03:56:25', `echonest` = 1 WHERE `id` = 2[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 1) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 1) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPopularPStat Load (0.2ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (`popular_p_stats`.`altnet_id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularPStat Update (0.2ms)[0m   [0mUPDATE `popular_p_stats` SET `updated_at` = '2010-10-18 03:56:25', `echonest` = 1 WHERE `id` = 3[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 2) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 2) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 2) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPStat Load (0.4ms)[0m   [0;1mSELECT * FROM `popular_p_stats` WHERE (`popular_p_stats`.`altnet_id` = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPStat Update (0.3ms)[0m   [0;1mUPDATE `popular_p_stats` SET `updated_at` = '2010-10-18 03:56:25', `echonest` = 1 WHERE `id` = 4[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.6ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 3) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 3) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPopularPStat Load (0.3ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (`popular_p_stats`.`altnet_id` = 3) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularPStat Update (0.2ms)[0m   [0mUPDATE `popular_p_stats` SET `updated_at` = '2010-10-18 03:56:25', `echonest` = 1 WHERE `id` = 5[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 4) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 4) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 4) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPStat Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_p_stats` WHERE (`popular_p_stats`.`altnet_id` = 4) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPStat Update (0.2ms)[0m   [0;1mUPDATE `popular_p_stats` SET `updated_at` = '2010-10-18 03:56:25', `echonest` = 1 WHERE `id` = 6[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 5) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 5) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.4ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 5) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPopularPStat Load (0.5ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (`popular_p_stats`.`altnet_id` = 5) LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularPStat Update (0.3ms)[0m   [0mUPDATE `popular_p_stats` SET `updated_at` = '2010-10-18 03:56:25', `echonest` = 1 WHERE `id` = 7[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 6) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 6) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 6) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPStat Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_p_stats` WHERE (`popular_p_stats`.`altnet_id` = 6) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPStat Update (1.9ms)[0m   [0;1mUPDATE `popular_p_stats` SET `updated_at` = '2010-10-18 03:56:25', `echonest` = 1 WHERE `id` = 8[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 7) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularEchonest Load (0.9ms)[0m   [0mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 7) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 7) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPopularPStat Load (0.3ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (`popular_p_stats`.`altnet_id` = 7) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularPStat Update (0.2ms)[0m   [0mUPDATE `popular_p_stats` SET `updated_at` = '2010-10-18 03:56:25', `echonest` = 1 WHERE `id` = 9[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (id = 8) LIMIT 1[0m
+  [4;36;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0;1mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 8) LIMIT 1[0m
+  [4;35;1mPopularArtist Load (0.2ms)[0m   [0mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 8) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPStat Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_p_stats` WHERE (`popular_p_stats`.`altnet_id` = 8) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPStat Update (0.3ms)[0m   [0;1mUPDATE `popular_p_stats` SET `updated_at` = '2010-10-18 03:56:25', `echonest` = 1 WHERE `id` = 10[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (id = 9) LIMIT 1[0m
+  [4;35;1mWebsourceArtistPopularEchonest Load (0.3ms)[0m   [0mSELECT * FROM `websource_artist_popular_echonests` WHERE (`websource_artist_popular_echonests`.altnet_id = 9) LIMIT 1[0m
+  [4;36;1mPopularArtist Load (0.2ms)[0m   [0;1mSELECT * FROM `popular_artists` WHERE (`popular_artists`.`artist_id` = 9) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPopularPStat Load (0.2ms)[0m   [0mSELECT * FROM `popular_p_stats` WHERE (`popular_p_stats`.`altnet_id` = 9) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularPStat Update (0.3ms)[0m   [0mUPDATE `popular_p_stats` SET `updated_at` = '2010-10-18 03:56:25', `echonest` = 1 WHERE `id` = 11[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (197.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (26.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePStats (20100922010458)
+Migrating to CreateRelateMusicbrainzs (20100922023028)
+Migrating to CreateWebsources (20100922071727)
+Migrating to CreateWebsourceLastfms (20100923021033)
+Migrating to CreateWebsourceYahoomusics (20100923021056)
+Migrating to CreateWebsourceMtvs (20100923021108)
+Migrating to CreateWebsourceEchonests (20100923071830)
+Migrating to CreateRelateMtvs (20100924035323)
+Migrating to CreateRelateLastfms (20100924052749)
+Migrating to CreateRelateYahoomusics (20100924052803)
+Migrating to CreateRelateEchonests (20100924052823)
+Migrating to CreateAStats (20100927031750)
+Migrating to CreateSimilarArtists (20100930045107)
+Migrating to CreatePopularPStats (20101006061104)
+Migrating to CreateWebsourceArtistPopularLastfms (20101006062147)
+Migrating to CreateWebsourceArtistPopularEchonests (20101007023819)
+Migrating to CreatePopularArtists (20101018032613)
+Migrating to CreatePopularPAlbumStats (20101021054138)
+  [4;35;1mSQL (509.9ms)[0m   [0mCREATE TABLE `popular_p_album_stats` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `altnet_id` int(11), `mz` int(11), `lastfm` int(11), `echonest` int(11), `yahoomusic` int(11), `mtv` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `popular_p_album_stats`[0m
+  [4;35;1mSQL (445.8ms)[0m   [0mCREATE INDEX `index_popular_p_album_stats_on_altnet_id` ON `popular_p_album_stats` (`altnet_id`)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101021054138')[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (77.4ms)[0m   [0;1mSHOW FIELDS FROM `a_stats`[0m
+  [4;35;1mSQL (12.4ms)[0m   [0mdescribe `a_stats`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `a_stats`[0m
+  [4;35;1mSQL (2341.6ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mdescribe `artists`[0m
+  [4;35;1mSQL (4085.2ms)[0m   [0mSHOW KEYS FROM `artists`[0m
+  [4;36;1mSQL (160.5ms)[0m   [0;1mSHOW FIELDS FROM `p_stats`[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mdescribe `p_stats`[0m
+  [4;36;1mSQL (54.6ms)[0m   [0;1mSHOW KEYS FROM `p_stats`[0m
+  [4;35;1mSQL (292.6ms)[0m   [0mSHOW FIELDS FROM `popular_artists`[0m
+  [4;36;1mSQL (4.2ms)[0m   [0;1mdescribe `popular_artists`[0m
+  [4;35;1mSQL (239.1ms)[0m   [0mSHOW KEYS FROM `popular_artists`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mdescribe `popular_p_album_stats`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW KEYS FROM `popular_p_album_stats`[0m
+  [4;35;1mSQL (21.1ms)[0m   [0mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mdescribe `popular_p_stats`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW KEYS FROM `popular_p_stats`[0m
+  [4;36;1mSQL (28.6ms)[0m   [0;1mSHOW FIELDS FROM `relate_echonests`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `relate_echonests`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `relate_echonests`[0m
+  [4;35;1mSQL (16.5ms)[0m   [0mSHOW FIELDS FROM `relate_lastfms`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `relate_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW KEYS FROM `relate_lastfms`[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSHOW FIELDS FROM `relate_mtvs`[0m
+  [4;35;1mSQL (4.7ms)[0m   [0mdescribe `relate_mtvs`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW KEYS FROM `relate_mtvs`[0m
+  [4;35;1mSQL (164.7ms)[0m   [0mSHOW FIELDS FROM `relate_musicbrainzs`[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mdescribe `relate_musicbrainzs`[0m
+  [4;35;1mSQL (247.4ms)[0m   [0mSHOW KEYS FROM `relate_musicbrainzs`[0m
+  [4;36;1mSQL (54.7ms)[0m   [0;1mSHOW FIELDS FROM `relate_yahoomusics`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mdescribe `relate_yahoomusics`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW KEYS FROM `relate_yahoomusics`[0m
+  [4;35;1mSQL (31.5ms)[0m   [0mSHOW FIELDS FROM `similar_artists`[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mdescribe `similar_artists`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW KEYS FROM `similar_artists`[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSHOW FIELDS FROM `websource_artist_popular_echonests`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mdescribe `websource_artist_popular_echonests`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW KEYS FROM `websource_artist_popular_echonests`[0m
+  [4;35;1mSQL (16.8ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `websource_artist_popular_lastfms`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (24.7ms)[0m   [0;1mSHOW FIELDS FROM `websource_echonests`[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mdescribe `websource_echonests`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `websource_echonests`[0m
+  [4;35;1mSQL (28.0ms)[0m   [0mSHOW FIELDS FROM `websource_lastfms`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mdescribe `websource_lastfms`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW KEYS FROM `websource_lastfms`[0m
+  [4;36;1mSQL (36.2ms)[0m   [0;1mSHOW FIELDS FROM `websource_mtvs`[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mdescribe `websource_mtvs`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW KEYS FROM `websource_mtvs`[0m
+  [4;35;1mSQL (49.1ms)[0m   [0mSHOW FIELDS FROM `websource_yahoomusics`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mdescribe `websource_yahoomusics`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW KEYS FROM `websource_yahoomusics`[0m
+  [4;36;1mSQL (27.8ms)[0m   [0;1mSHOW FIELDS FROM `websources`[0m
+  [4;35;1mSQL (2.3ms)[0m   [0mdescribe `websources`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `websources`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePStats (20100922010458)
+Migrating to CreateRelateMusicbrainzs (20100922023028)
+Migrating to CreateWebsources (20100922071727)
+Migrating to CreateWebsourceLastfms (20100923021033)
+Migrating to CreateWebsourceYahoomusics (20100923021056)
+Migrating to CreateWebsourceMtvs (20100923021108)
+Migrating to CreateWebsourceEchonests (20100923071830)
+Migrating to CreateRelateMtvs (20100924035323)
+Migrating to CreateRelateLastfms (20100924052749)
+Migrating to CreateRelateYahoomusics (20100924052803)
+Migrating to CreateRelateEchonests (20100924052823)
+Migrating to CreateAStats (20100927031750)
+Migrating to CreateSimilarArtists (20100930045107)
+Migrating to CreatePopularPStats (20101006061104)
+Migrating to CreateWebsourceArtistPopularLastfms (20101006062147)
+Migrating to CreateWebsourceArtistPopularEchonests (20101007023819)
+Migrating to CreatePopularArtists (20101018032613)
+Migrating to CreatePopularPAlbumStats (20101021054138)
+Migrating to CreateWebsourceAlbumPopularLastfms (20101021054520)
+  [4;35;1mSQL (427.5ms)[0m   [0mCREATE TABLE `websource_album_popular_lastfms` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `altnet_id` int(11), `html` text, `url` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101021054520')[0m
+  [4;35;1mSQL (13.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (60.8ms)[0m   [0;1mSHOW FIELDS FROM `a_stats`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mdescribe `a_stats`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW KEYS FROM `a_stats`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mdescribe `artists`[0m
+  [4;35;1mSQL (2162.2ms)[0m   [0mSHOW KEYS FROM `artists`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `p_stats`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mdescribe `p_stats`[0m
+  [4;36;1mSQL (83.1ms)[0m   [0;1mSHOW KEYS FROM `p_stats`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW FIELDS FROM `popular_artists`[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mdescribe `popular_artists`[0m
+  [4;35;1mSQL (455.5ms)[0m   [0mSHOW KEYS FROM `popular_artists`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mdescribe `popular_p_album_stats`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `popular_p_album_stats`[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mdescribe `popular_p_stats`[0m
+  [4;35;1mSQL (11.1ms)[0m   [0mSHOW KEYS FROM `popular_p_stats`[0m
+  [4;36;1mSQL (2.8ms)[0m   [0;1mSHOW FIELDS FROM `relate_echonests`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `relate_echonests`[0m
+  [4;36;1mSQL (15.8ms)[0m   [0;1mSHOW KEYS FROM `relate_echonests`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW FIELDS FROM `relate_lastfms`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `relate_lastfms`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW KEYS FROM `relate_lastfms`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW FIELDS FROM `relate_mtvs`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mdescribe `relate_mtvs`[0m
+  [4;36;1mSQL (11.4ms)[0m   [0;1mSHOW KEYS FROM `relate_mtvs`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `relate_musicbrainzs`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `relate_musicbrainzs`[0m
+  [4;35;1mSQL (115.1ms)[0m   [0mSHOW KEYS FROM `relate_musicbrainzs`[0m
+  [4;36;1mSQL (7.0ms)[0m   [0;1mSHOW FIELDS FROM `relate_yahoomusics`[0m
+  [4;35;1mSQL (71.5ms)[0m   [0mdescribe `relate_yahoomusics`[0m
+  [4;36;1mSQL (25.8ms)[0m   [0;1mSHOW KEYS FROM `relate_yahoomusics`[0m
+  [4;35;1mSQL (36.7ms)[0m   [0mSHOW FIELDS FROM `similar_artists`[0m
+  [4;36;1mSQL (13.1ms)[0m   [0;1mdescribe `similar_artists`[0m
+  [4;35;1mSQL (13.3ms)[0m   [0mSHOW KEYS FROM `similar_artists`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `websource_album_popular_lastfms`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mdescribe `websource_album_popular_lastfms`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW KEYS FROM `websource_album_popular_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mdescribe `websource_artist_popular_echonests`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW KEYS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mdescribe `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `websource_artist_popular_lastfms`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW FIELDS FROM `websource_echonests`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `websource_echonests`[0m
+  [4;35;1mSQL (24.4ms)[0m   [0mSHOW KEYS FROM `websource_echonests`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `websource_lastfms`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mdescribe `websource_lastfms`[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mSHOW KEYS FROM `websource_lastfms`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSHOW FIELDS FROM `websource_mtvs`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `websource_mtvs`[0m
+  [4;35;1mSQL (12.7ms)[0m   [0mSHOW KEYS FROM `websource_mtvs`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `websource_yahoomusics`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mdescribe `websource_yahoomusics`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW KEYS FROM `websource_yahoomusics`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW FIELDS FROM `websources`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `websources`[0m
+  [4;35;1mSQL (8.3ms)[0m   [0mSHOW KEYS FROM `websources`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (118.2ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (67.2ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mAlbum Load (366.6ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.artist_id = 1 AND (`albums`.`is_valid` = 1)) [0m
+  [4;35;1mAlbum Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (18.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePStats (20100922010458)
+Migrating to CreateRelateMusicbrainzs (20100922023028)
+Migrating to CreateWebsources (20100922071727)
+Migrating to CreateWebsourceLastfms (20100923021033)
+Migrating to CreateWebsourceYahoomusics (20100923021056)
+Migrating to CreateWebsourceMtvs (20100923021108)
+Migrating to CreateWebsourceEchonests (20100923071830)
+Migrating to CreateRelateMtvs (20100924035323)
+Migrating to CreateRelateLastfms (20100924052749)
+Migrating to CreateRelateYahoomusics (20100924052803)
+Migrating to CreateRelateEchonests (20100924052823)
+Migrating to CreateAStats (20100927031750)
+Migrating to CreateSimilarArtists (20100930045107)
+Migrating to CreatePopularPStats (20101006061104)
+Migrating to CreateWebsourceArtistPopularLastfms (20101006062147)
+Migrating to CreateWebsourceArtistPopularEchonests (20101007023819)
+Migrating to CreatePopularArtists (20101018032613)
+Migrating to CreatePopularPAlbumStats (20101021054138)
+Migrating to CreateWebsourceAlbumPopularLastfms (20101021065914)
+  [4;35;1mSQL (488.5ms)[0m   [0mCREATE TABLE `websource_album_popular_lastfms` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `album_id` int(11), `html` text, `url` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101021065914')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW FIELDS FROM `a_stats`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `a_stats`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `a_stats`[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mSQL (4.0ms)[0m   [0;1mdescribe `albums`[0m
+  [4;35;1mSQL (975.3ms)[0m   [0mSHOW KEYS FROM `albums`[0m
+  [4;36;1mSQL (47.2ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mSQL (126.2ms)[0m   [0mdescribe `artists`[0m
+  [4;36;1mSQL (2164.0ms)[0m   [0;1mSHOW KEYS FROM `artists`[0m
+  [4;35;1mSQL (924.1ms)[0m   [0mSHOW FIELDS FROM `p_stats`[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mdescribe `p_stats`[0m
+  [4;35;1mSQL (89.7ms)[0m   [0mSHOW KEYS FROM `p_stats`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mdescribe `popular_artists`[0m
+  [4;36;1mSQL (168.0ms)[0m   [0;1mSHOW KEYS FROM `popular_artists`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mdescribe `popular_p_album_stats`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW KEYS FROM `popular_p_album_stats`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mdescribe `popular_p_stats`[0m
+  [4;36;1mSQL (16.3ms)[0m   [0;1mSHOW KEYS FROM `popular_p_stats`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSHOW FIELDS FROM `relate_echonests`[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mdescribe `relate_echonests`[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mSHOW KEYS FROM `relate_echonests`[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW FIELDS FROM `relate_lastfms`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mdescribe `relate_lastfms`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSHOW KEYS FROM `relate_lastfms`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `relate_mtvs`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `relate_mtvs`[0m
+  [4;35;1mSQL (8.1ms)[0m   [0mSHOW KEYS FROM `relate_mtvs`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `relate_musicbrainzs`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mdescribe `relate_musicbrainzs`[0m
+  [4;36;1mSQL (132.2ms)[0m   [0;1mSHOW KEYS FROM `relate_musicbrainzs`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `relate_yahoomusics`[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mdescribe `relate_yahoomusics`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW KEYS FROM `relate_yahoomusics`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `similar_artists`[0m
+  [4;35;1mSQL (2.5ms)[0m   [0mdescribe `similar_artists`[0m
+  [4;36;1mSQL (8.0ms)[0m   [0;1mSHOW KEYS FROM `similar_artists`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW FIELDS FROM `websource_album_popular_lastfms`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mdescribe `websource_album_popular_lastfms`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSHOW KEYS FROM `websource_album_popular_lastfms`[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSHOW FIELDS FROM `websource_artist_popular_echonests`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mdescribe `websource_artist_popular_echonests`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW KEYS FROM `websource_artist_popular_echonests`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `websource_artist_popular_lastfms`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW KEYS FROM `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `websource_echonests`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `websource_echonests`[0m
+  [4;36;1mSQL (20.5ms)[0m   [0;1mSHOW KEYS FROM `websource_echonests`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_lastfms`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mdescribe `websource_lastfms`[0m
+  [4;35;1mSQL (16.6ms)[0m   [0mSHOW KEYS FROM `websource_lastfms`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `websource_mtvs`[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mdescribe `websource_mtvs`[0m
+  [4;36;1mSQL (13.3ms)[0m   [0;1mSHOW KEYS FROM `websource_mtvs`[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mSHOW FIELDS FROM `websource_yahoomusics`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `websource_yahoomusics`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW KEYS FROM `websource_yahoomusics`[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mSHOW FIELDS FROM `websources`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `websources`[0m
+  [4;36;1mSQL (31.5ms)[0m   [0;1mSHOW KEYS FROM `websources`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (77.3ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (18.5ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (24.6ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (43.0ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mAlbum Load (314.1ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.artist_id = 1 AND (`albums`.`is_valid` = 1)) [0m
+  [4;35;1mAlbum Columns (23.0ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (40.4ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (23.1ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mAlbum Load (234.8ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.artist_id = 1 AND (`albums`.`is_valid` = 1)) [0m
+  [4;35;1mAlbum Columns (3.7ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (126.1ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (20.0ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (42.7ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (22.5ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mAlbum Load (455.9ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.artist_id = 1 AND (`albums`.`is_valid` = 1)) [0m
+  [4;35;1mAlbum Columns (17.0ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `websource_album_popular_lastfms`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (17.2ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mAlbum Load (387.1ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.artist_id = 1 AND (`albums`.`is_valid` = 1)) [0m
+  [4;35;1mAlbum Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `websource_album_popular_lastfms`[0m
+  [4;35;1mSQL (30.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (69.7ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 3,182,671 plays (299,979 listeners)\n \n <br />\n <a href=\"/music/Beastie+Boys/Licensed+to+Ill\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:20:38', 74008, '2010-10-21 07:20:38', 'http://www.last.fm/music/Beastie%20Boys/Licensed%20To%20Ill')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (78.5ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mAlbum Load (588.5ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.artist_id = 1 AND (`albums`.`is_valid` = 1)) [0m
+  [4;35;1mAlbum Columns (39.5ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Columns (53.0ms)[0m   [0;1mSHOW FIELDS FROM `websource_album_popular_lastfms`[0m
+  [4;35;1mSQL (20.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (1.9ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 3,182,671 plays (299,979 listeners)\n \n <br />\n <a href=\"/music/Beastie+Boys/Licensed+to+Ill\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:21:30', 74008, '2010-10-21 07:21:30', 'http://www.last.fm/music/Beastie%20Boys/Licensed%20To%20Ill')[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (48.1ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (112.6ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mAlbum Load (866.5ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.artist_id = 1 AND (`albums`.`is_valid` = 1)) [0m
+  [4;35;1mAlbum Columns (10.2ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Columns (13.9ms)[0m   [0;1mSHOW FIELDS FROM `websource_album_popular_lastfms`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (0.5ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 3,182,671 plays (299,979 listeners)\n \n <br />\n <a href=\"/music/Beastie+Boys/Licensed+to+Ill\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:22:09', 74008, '2010-10-21 07:22:09', 'http://www.last.fm/music/Beastie%20Boys/Licensed%20To%20Ill')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mAlbum Columns (100.6ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mAlbum Load (82.1ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.`id` = 1) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (13.0ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (99.4ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (19.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mAlbum Columns (76.5ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mAlbum Load (114.8ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.`id` = 1) [0m
+  [4;35;1mPopularPAlbumStat Columns (4.4ms)[0m   [0mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;36;1mSQL (23.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mAlbum Columns (23.1ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mAlbum Load (24.0ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.`id` = 1) [0m
+  [4;35;1mPopularPAlbumStat Columns (23.0ms)[0m   [0mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;36;1mSQL (30.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mAlbum Columns (75.0ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mAlbum Load (627.5ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.`id` = 1) [0m
+  [4;35;1mPopularPAlbumStat Columns (300.7ms)[0m   [0mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;36;1mPopularPAlbumStat Load (40.7ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Create (0.6ms)[0m   [0;1mINSERT INTO `popular_p_album_stats` (`echonest`, `created_at`, `mz`, `updated_at`, `mtv`, `lastfm`, `altnet_id`, `yahoomusic`) VALUES(0, '2010-10-21 07:49:43', 0, '2010-10-21 07:49:43', 0, 0, 1, 0)[0m
+  [4;35;1mSQL (160.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (4.7ms)[0m   [0;1mSET NAMES UTF8[0m
+  [4;35;1mArtist Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mArtist Load (36.2ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`id` = 1) [0m
+  [4;35;1mWebsourceAlbumPopularLastfm Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `websource_album_popular_lastfms`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mWebsourceAlbumPopularLastfm Create (0.8ms)[0m   [0mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 14,598 plays (1,535 listeners)\n \n <br />\n <a href=\"/music/Beastie+Boys/Ill+Communication+%28Remastered+Edition%29\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:49:47', 1, '2010-10-21 07:49:47', 'http://www.last.fm/music/Beastie%20Boys/Ill%20Communication%20(Remastered%20Edition)')[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPopularPAlbumStat Load (0.7ms)[0m   [0mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularPAlbumStat Update (58.2ms)[0m   [0mUPDATE `popular_p_album_stats` SET `updated_at` = '2010-10-21 07:49:47', `lastfm` = 5 WHERE `id` = 1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mAlbum Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mAlbum Load (12.0ms)[0m   [0;1mSELECT * FROM `albums` WHERE (`albums`.`id` = 1) [0m
+  [4;35;1mPopularPAlbumStat Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;36;1mPopularPAlbumStat Load (1.0ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mAlbum Load (26.4ms)[0m   [0mSELECT * FROM `albums` LIMIT 0, 10[0m
+  [4;36;1mAlbum Columns (81.2ms)[0m   [0;1mSHOW FIELDS FROM `albums`[0m
+  [4;35;1mPopularPAlbumStat Columns (524.7ms)[0m   [0mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;36;1mPopularPAlbumStat Load (119.5ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 1) LIMIT 1[0m
+  [4;35;1mPopularPAlbumStat Load (0.5ms)[0m   [0mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 2) LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPopularPAlbumStat Create (1.3ms)[0m   [0mINSERT INTO `popular_p_album_stats` (`echonest`, `created_at`, `mz`, `updated_at`, `mtv`, `lastfm`, `altnet_id`, `yahoomusic`) VALUES(0, '2010-10-21 07:50:48', 0, '2010-10-21 07:50:48', 0, 0, 2, 0)[0m
+  [4;36;1mSQL (53.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES UTF8[0m
+  [4;36;1mArtist Columns (19.7ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (57.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`id` = 2) [0m
+  [4;36;1mWebsourceAlbumPopularLastfm Columns (682.8ms)[0m   [0;1mSHOW FIELDS FROM `websource_album_popular_lastfms`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (0.5ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 257,361 plays (69,344 listeners)\n \n <br />\n <a href=\"/music/Doves/Lost+Sides\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:50:54', 2, '2010-10-21 07:50:54', 'http://www.last.fm/music/Doves/Lost%20Sides')[0m
+  [4;35;1mSQL (25.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (1.0ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Update (4.3ms)[0m   [0;1mUPDATE `popular_p_album_stats` SET `updated_at` = '2010-10-21 07:50:54', `lastfm` = 5 WHERE `id` = 2[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.8ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Create (0.3ms)[0m   [0;1mINSERT INTO `popular_p_album_stats` (`echonest`, `created_at`, `mz`, `updated_at`, `mtv`, `lastfm`, `altnet_id`, `yahoomusic`) VALUES(0, '2010-10-21 07:50:54', 0, '2010-10-21 07:50:54', 0, 0, 3, 0)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.9ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`id` = 3) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (12.1ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 32,220 plays (14,409 listeners)\n \n <br />\n <a href=\"/music/Paul+van+Dyk/White+Lies\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:50:59', 3, '2010-10-21 07:50:59', 'http://www.last.fm/music/Paul%20van%20Dyk/White%20Lies')[0m
+  [4;35;1mSQL (2.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (2.1ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Update (0.4ms)[0m   [0;1mUPDATE `popular_p_album_stats` SET `updated_at` = '2010-10-21 07:50:59', `lastfm` = 5 WHERE `id` = 3[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.4ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 4) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Create (0.3ms)[0m   [0;1mINSERT INTO `popular_p_album_stats` (`echonest`, `created_at`, `mz`, `updated_at`, `mtv`, `lastfm`, `altnet_id`, `yahoomusic`) VALUES(0, '2010-10-21 07:50:59', 0, '2010-10-21 07:50:59', 0, 0, 4, 0)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.8ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`id` = 4) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (0.6ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 62,058 plays (6,748 listeners)\n \n <br />\n <a href=\"/music/Ed+Harcourt/Until+Tomorrow+Then+-+The+Best+Of+Ed+Harcourt\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:51:05', 4, '2010-10-21 07:51:05', 'http://www.last.fm/music/Ed%20Harcourt/Until%20Tomorrow%20Then%20-%20The%20Best%20Of%20Ed%20Harcourt')[0m
+  [4;35;1mSQL (2.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.6ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 4) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Update (0.4ms)[0m   [0;1mUPDATE `popular_p_album_stats` SET `updated_at` = '2010-10-21 07:51:05', `lastfm` = 5 WHERE `id` = 4[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.4ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 5) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Create (0.2ms)[0m   [0;1mINSERT INTO `popular_p_album_stats` (`echonest`, `created_at`, `mz`, `updated_at`, `mtv`, `lastfm`, `altnet_id`, `yahoomusic`) VALUES(0, '2010-10-21 07:51:05', 0, '2010-10-21 07:51:05', 0, 0, 5, 0)[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.7ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`id` = 5) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (0.5ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 516 plays (117 listeners)\n \n <br />\n <a href=\"/music/Recoil/Prey\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:51:09', 5, '2010-10-21 07:51:09', 'http://www.last.fm/music/Recoil/Prey')[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.6ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 5) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Update (0.4ms)[0m   [0;1mUPDATE `popular_p_album_stats` SET `updated_at` = '2010-10-21 07:51:09', `lastfm` = 5 WHERE `id` = 5[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 6) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Create (1.1ms)[0m   [0;1mINSERT INTO `popular_p_album_stats` (`echonest`, `created_at`, `mz`, `updated_at`, `mtv`, `lastfm`, `altnet_id`, `yahoomusic`) VALUES(0, '2010-10-21 07:51:09', 0, '2010-10-21 07:51:09', 0, 0, 6, 0)[0m
+  [4;35;1mSQL (12.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.7ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`id` = 6) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (48.9ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 158 plays (47 listeners)\n \n <br />\n <a href=\"/music/Peter+Gabriel/Long+Walk+Home+-+Music+From+%27The+Rabbit-Proof+Fence%27\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:51:16', 6, '2010-10-21 07:51:16', 'http://www.last.fm/music/Peter%20Gabriel/Long%20Walk%20Home%20-%20Music%20From%20\'The%20Rabbit-Proof%20Fence\'')[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.6ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 6) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Update (0.4ms)[0m   [0;1mUPDATE `popular_p_album_stats` SET `updated_at` = '2010-10-21 07:51:16', `lastfm` = 5 WHERE `id` = 6[0m
+  [4;35;1mSQL (6.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.4ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 7) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Create (0.2ms)[0m   [0;1mINSERT INTO `popular_p_album_stats` (`echonest`, `created_at`, `mz`, `updated_at`, `mtv`, `lastfm`, `altnet_id`, `yahoomusic`) VALUES(0, '2010-10-21 07:51:16', 0, '2010-10-21 07:51:16', 0, 0, 7, 0)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.6ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`id` = 7) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (0.4ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 32,642 plays (3,206 listeners)\n \n <br />\n <a href=\"/music/Paul+McCartney/Choba+B+CCCP\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:51:21', 7, '2010-10-21 07:51:21', 'http://www.last.fm/music/Paul%20McCartney/Choba%20B%20CCCP')[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.5ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 7) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Update (0.3ms)[0m   [0;1mUPDATE `popular_p_album_stats` SET `updated_at` = '2010-10-21 07:51:21', `lastfm` = 5 WHERE `id` = 7[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.4ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 8) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Create (0.2ms)[0m   [0;1mINSERT INTO `popular_p_album_stats` (`echonest`, `created_at`, `mz`, `updated_at`, `mtv`, `lastfm`, `altnet_id`, `yahoomusic`) VALUES(0, '2010-10-21 07:51:21', 0, '2010-10-21 07:51:21', 0, 0, 8, 0)[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.6ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`id` = 6) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (0.5ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 208,702 plays (31,093 listeners)\n \n <br />\n <a href=\"/music/Peter+Gabriel/OVO\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:51:27', 8, '2010-10-21 07:51:27', 'http://www.last.fm/music/Peter%20Gabriel/OVO')[0m
+  [4;35;1mSQL (11.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.9ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 8) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Update (0.7ms)[0m   [0;1mUPDATE `popular_p_album_stats` SET `updated_at` = '2010-10-21 07:51:27', `lastfm` = 5 WHERE `id` = 8[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 9) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Create (0.2ms)[0m   [0;1mINSERT INTO `popular_p_album_stats` (`echonest`, `created_at`, `mz`, `updated_at`, `mtv`, `lastfm`, `altnet_id`, `yahoomusic`) VALUES(0, '2010-10-21 07:51:27', 0, '2010-10-21 07:51:27', 0, 0, 9, 0)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.6ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`id` = 8) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (0.6ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 165 plays (50 listeners)\n \n <br />\n <a href=\"/music/Keith+Urban/Making+Memories+Of+Us\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:51:33', 9, '2010-10-21 07:51:33', 'http://www.last.fm/music/Keith%20Urban/Making%20Memories%20Of%20Us')[0m
+  [4;35;1mSQL (65.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (59.1ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 9) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Update (0.5ms)[0m   [0;1mUPDATE `popular_p_album_stats` SET `updated_at` = '2010-10-21 07:51:33', `lastfm` = 5 WHERE `id` = 9[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.3ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 10) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Create (0.2ms)[0m   [0;1mINSERT INTO `popular_p_album_stats` (`echonest`, `created_at`, `mz`, `updated_at`, `mtv`, `lastfm`, `altnet_id`, `yahoomusic`) VALUES(0, '2010-10-21 07:51:33', 0, '2010-10-21 07:51:33', 0, 0, 10, 0)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtist Load (0.7ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`id` = 9) [0m
+  [4;35;1mSQL (1.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mWebsourceAlbumPopularLastfm Create (10.1ms)[0m   [0;1mINSERT INTO `websource_album_popular_lastfms` (`html`, `created_at`, `album_id`, `updated_at`, `url`) VALUES('<p class=\"stats\">\n 1,037 plays (167 listeners)\n \n <br />\n <a href=\"/music/Pet+Shop+Boys/Did+You+See+Me+Coming\" id=\"inLibraryIndicatorForArtist\" style=\"display: none;\">In your library (0 plays)</a> </p>', '2010-10-21 07:51:37', 10, '2010-10-21 07:51:37', 'http://www.last.fm/music/Pet%20Shop%20Boys/Did%20you%20see%20me%20coming?')[0m
+  [4;35;1mSQL (2.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPopularPAlbumStat Load (0.5ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 10) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPopularPAlbumStat Update (0.4ms)[0m   [0;1mUPDATE `popular_p_album_stats` SET `updated_at` = '2010-10-21 07:51:37', `lastfm` = 5 WHERE `id` = 10[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mAlbum Load (83.8ms)[0m   [0mSELECT * FROM `albums` LIMIT 0, 1[0m
+  [4;36;1mAlbum Columns (64.0ms)[0m   [0;1mSHOW FIELDS FROM `albums`[0m
+  [4;35;1mPopularPAlbumStat Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;36;1mPopularPAlbumStat Load (0.6ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mAlbum Load (14.5ms)[0m   [0mSELECT * FROM `albums` LIMIT 0, 2[0m
+  [4;36;1mAlbum Columns (35.1ms)[0m   [0;1mSHOW FIELDS FROM `albums`[0m
+  [4;35;1mPopularPAlbumStat Columns (5.6ms)[0m   [0mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;36;1mPopularPAlbumStat Load (1.5ms)[0m   [0;1mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 1) LIMIT 1[0m
+  [4;35;1mPopularPAlbumStat Load (0.5ms)[0m   [0mSELECT * FROM `popular_p_album_stats` WHERE (`popular_p_album_stats`.`altnet_id` = 2) LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (296.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (35.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePStats (20100922010458)
+Migrating to CreateRelateMusicbrainzs (20100922023028)
+Migrating to CreateWebsources (20100922071727)
+Migrating to CreateWebsourceLastfms (20100923021033)
+Migrating to CreateWebsourceYahoomusics (20100923021056)
+Migrating to CreateWebsourceMtvs (20100923021108)
+Migrating to CreateWebsourceEchonests (20100923071830)
+Migrating to CreateRelateMtvs (20100924035323)
+Migrating to CreateRelateLastfms (20100924052749)
+Migrating to CreateRelateYahoomusics (20100924052803)
+Migrating to CreateRelateEchonests (20100924052823)
+Migrating to CreateAStats (20100927031750)
+Migrating to CreateSimilarArtists (20100930045107)
+Migrating to CreatePopularPStats (20101006061104)
+Migrating to CreateWebsourceArtistPopularLastfms (20101006062147)
+Migrating to CreateWebsourceArtistPopularEchonests (20101007023819)
+Migrating to CreatePopularArtists (20101018032613)
+Migrating to CreatePopularPAlbumStats (20101021054138)
+Migrating to CreateWebsourceAlbumPopularLastfms (20101021065914)
+Migrating to CreateSimilarPTrackStats (20101022020827)
+  [4;35;1mSQL (210.3ms)[0m   [0mCREATE TABLE `similar_p_track_stats` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `altnet_id` int(11), `mz` int(11), `lastfm` int(11), `echonest` int(11), `yahoomusic` int(11), `mtv` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `similar_p_track_stats`[0m
+  [4;35;1mSQL (342.1ms)[0m   [0mCREATE INDEX `index_similar_p_track_stats_on_altnet_id` ON `similar_p_track_stats` (`altnet_id`)[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101022020827')[0m
+Migrating to CreateWebsourceTrackSimilarLastfms (20101022020938)
+  [4;35;1mSQL (131.3ms)[0m   [0mCREATE TABLE `websource_track_similar_lastfms` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `altnet_id` int(11), `html` text, `url` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `websource_track_similar_lastfms`[0m
+  [4;35;1mSQL (177.5ms)[0m   [0mCREATE INDEX `index_websource_track_similar_lastfms_on_altnet_id` ON `websource_track_similar_lastfms` (`altnet_id`)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101022020938')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (28.0ms)[0m   [0;1mSHOW FIELDS FROM `a_stats`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mdescribe `a_stats`[0m
+  [4;36;1mSQL (22.8ms)[0m   [0;1mSHOW KEYS FROM `a_stats`[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mSHOW FIELDS FROM `albums`[0m
+  [4;36;1mSQL (2.9ms)[0m   [0;1mdescribe `albums`[0m
+  [4;35;1mSQL (1103.2ms)[0m   [0mSHOW KEYS FROM `albums`[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mdescribe `artists`[0m
+  [4;36;1mSQL (1100.4ms)[0m   [0;1mSHOW KEYS FROM `artists`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSHOW FIELDS FROM `p_stats`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mdescribe `p_stats`[0m
+  [4;35;1mSQL (46.9ms)[0m   [0mSHOW KEYS FROM `p_stats`[0m
+  [4;36;1mSQL (2.5ms)[0m   [0;1mSHOW FIELDS FROM `popular_artists`[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mdescribe `popular_artists`[0m
+  [4;36;1mSQL (172.3ms)[0m   [0;1mSHOW KEYS FROM `popular_artists`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSHOW FIELDS FROM `popular_p_album_stats`[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mdescribe `popular_p_album_stats`[0m
+  [4;35;1mSQL (34.8ms)[0m   [0mSHOW KEYS FROM `popular_p_album_stats`[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSHOW FIELDS FROM `popular_p_stats`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `popular_p_stats`[0m
+  [4;36;1mSQL (18.4ms)[0m   [0;1mSHOW KEYS FROM `popular_p_stats`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `relate_echonests`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mdescribe `relate_echonests`[0m
+  [4;35;1mSQL (7.6ms)[0m   [0mSHOW KEYS FROM `relate_echonests`[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSHOW FIELDS FROM `relate_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `relate_lastfms`[0m
+  [4;36;1mSQL (2.9ms)[0m   [0;1mSHOW KEYS FROM `relate_lastfms`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW FIELDS FROM `relate_mtvs`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `relate_mtvs`[0m
+  [4;35;1mSQL (41.5ms)[0m   [0mSHOW KEYS FROM `relate_mtvs`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW FIELDS FROM `relate_musicbrainzs`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mdescribe `relate_musicbrainzs`[0m
+  [4;36;1mSQL (64.6ms)[0m   [0;1mSHOW KEYS FROM `relate_musicbrainzs`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSHOW FIELDS FROM `relate_yahoomusics`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `relate_yahoomusics`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `relate_yahoomusics`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW FIELDS FROM `similar_artists`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `similar_artists`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW KEYS FROM `similar_artists`[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mSHOW FIELDS FROM `similar_p_track_stats`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mdescribe `similar_p_track_stats`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `similar_p_track_stats`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `websource_album_popular_lastfms`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `websource_album_popular_lastfms`[0m
+  [4;36;1mSQL (7.5ms)[0m   [0;1mSHOW KEYS FROM `websource_album_popular_lastfms`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSHOW FIELDS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `websource_artist_popular_echonests`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW KEYS FROM `websource_artist_popular_echonests`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW FIELDS FROM `websource_artist_popular_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `websource_artist_popular_lastfms`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW KEYS FROM `websource_artist_popular_lastfms`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `websource_echonests`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `websource_echonests`[0m
+  [4;35;1mSQL (26.7ms)[0m   [0mSHOW KEYS FROM `websource_echonests`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW FIELDS FROM `websource_lastfms`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mdescribe `websource_lastfms`[0m
+  [4;36;1mSQL (5.3ms)[0m   [0;1mSHOW KEYS FROM `websource_lastfms`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `websource_mtvs`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mdescribe `websource_mtvs`[0m
+  [4;35;1mSQL (13.4ms)[0m   [0mSHOW KEYS FROM `websource_mtvs`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `websource_track_similar_lastfms`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `websource_track_similar_lastfms`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `websource_track_similar_lastfms`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `websource_yahoomusics`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `websource_yahoomusics`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW KEYS FROM `websource_yahoomusics`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `websources`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `websources`[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mSHOW KEYS FROM `websources`[0m

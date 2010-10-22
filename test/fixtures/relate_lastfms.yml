@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  altnet_id: 1
+  similar_artist_id: 1
+  position: 1
+  score: 1.5
+
+two:
+  altnet_id: 1
+  similar_artist_id: 1
+  position: 1
+  score: 1.5

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  altnet_id: 1
+  html: MyText
+  source: 1
+
+two:
+  altnet_id: 1
+  html: MyText
+  source: 1

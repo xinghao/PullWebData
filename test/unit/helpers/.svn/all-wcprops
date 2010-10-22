@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/7871/kazaa-similar-artists/test/unit/helpers
+END
+relate_musicbrainzs_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/7871/kazaa-similar-artists/test/unit/helpers/relate_musicbrainzs_helper_test.rb
+END
+p_statuses_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/7871/kazaa-similar-artists/test/unit/helpers/p_statuses_helper_test.rb
+END
+p_stats_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/7871/kazaa-similar-artists/test/unit/helpers/p_stats_helper_test.rb
+END

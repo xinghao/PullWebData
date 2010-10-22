@@ -1,0 +1,34 @@
+# SQLite version 3.x
+#   gem install sqlite3-ruby (not necessary on OS X Leopard)
+postgres_development:
+  adapter: postgresql
+  database: musicbrainz_20092010
+  host: 192.168.26.79
+  username: postgres
+  password: wa3Ub8ji
+  pool: 5
+  timeout: 5000
+  reconnect: true
+
+
+development:  
+  adapter: mysql
+  database: kazaa_similar_artists
+  host: 127.0.0.1
+  username: root
+#  password: bah5ieMoTahphau8vaa5Caep  
+  pool: 5
+  timeout: 5000
+  reconnect: true
+
+
+        
+  # adapter: mysql
+  # database: music_social_production
+  # host: 192.168.26.79
+  # password: bah5ieMoTahphau8vaa5Caep
+  # username: root
+  # pool: 5
+  # timeout: 5000
+  # reconnect: true
+

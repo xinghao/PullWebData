@@ -1,0 +1,2 @@
+module PStatsHelper
+end
