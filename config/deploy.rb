@@ -36,7 +36,7 @@ namespace :deploy do
   
   task :pre_setup do
     sudo "[ -d /opt/apps/pullwebdata ] || #{sudo} mkdir /opt/apps/pullwebdata"
-    sudo "[ -d /SOLR/SolrServer ] || #{sudo} mkdir /SOLR/SolrServer"
+    #sudo "[ -d /SOLR/SolrServer ] || #{sudo} mkdir /SOLR/SolrServer"
     sudo "[ -d /opt/apps/pullwebdata/releases ] || #{sudo} mkdir /opt/apps/pullwebdata/releases"
 #    sudo "chown svc-rails.kazaaadm /SOLR"
   end
@@ -64,7 +64,6 @@ namespace :deploy do
     
   desc 'Tag release'
   task :tag_release do
-    `git checkout #{rails_env}`
     `git tag #{rails_env}_#{DateTime.now.strftime "%Y_%m_%d-%H_%M"}`
     `git push --tags`
     `git checkout master`
