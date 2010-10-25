@@ -66,7 +66,7 @@ namespace :deploy do
   task :tag_release do
     `git tag #{rails_env}_#{DateTime.now.strftime "%Y_%m_%d-%H_%M"}`
     `git push --tags`
-    `git checkout master`
+    #`git checkout master`
   end
   
   task :post_deploy do
